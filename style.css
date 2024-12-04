@@ -1,0 +1,91 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #444;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(22, 15, 15);
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+form{
+    max-width: 700px;
+    margin:20px auto ;
+    background: #fc959521;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+fieldset{
+    padding: 15px;
+    background: #fffaf8;
+    margin-bottom: 15px;
+    border: 2 px solid #ff6f6f;
+    border-radius: 5px;
+    
+}
+legend{
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    color: brown;
+
+}
+label{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #444;
+    display: block;
+    margin-bottom: 5px;
+    line-height: 1.5;
+   
+}
+/*input and textarea styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+textarea{
+    font-size: 1rem;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background: #f56f6f;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center;
+}
+button:hover{
+    background: #d9594d;
+}
+.resume-preview {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
